@@ -18,5 +18,7 @@ int main(void) {
             }
         }
     }
+    if (count == 0)
+        printf("Wrong!\n");
     return 0;
 }
