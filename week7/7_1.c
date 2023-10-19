@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int i, a, b, c, x, t, step = 0;
+    int a, b, c, x, t;
 
     do {
         scanf("%d", &x);
@@ -15,13 +15,12 @@ int main(void) {
     } while (x < 100 || x > 999 || a == b && b == c);
 
     printf("%d", x);
-    while (x != 495 && step < 7) {
+    while (x != 495) {
         a = x % 10;
         x /= 10;
         b = x % 10;
         x /= 10;
         c = x % 10;
-        i = 0;
         if (a > b) {
             t = a, a = b, b = t;
         }
