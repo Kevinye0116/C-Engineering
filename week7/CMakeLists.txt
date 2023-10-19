@@ -1,0 +1,6 @@
+add_executable(7_1 7_1.c)
+add_executable(7_2 7_2.c)
+add_executable(7_3 7_3.c)
+add_executable(7_4 7_4.c)
+add_executable(7_5 7_5.c)
+add_executable(7_6 7_6.c)
