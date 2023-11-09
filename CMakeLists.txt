@@ -10,6 +10,7 @@ add_subdirectory(week6)
 add_subdirectory(week7)
 add_subdirectory(week8)
 add_subdirectory(week9)
+add_subdirectory(week10)
 
 add_executable(escape escape.c)
 add_executable(test test.c)

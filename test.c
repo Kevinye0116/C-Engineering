@@ -4,19 +4,23 @@
 
 #include <stdio.h>
 
-int main() {
-    int x;
-    int i = 0;
-    int j = 1;
-    while (i < 5) {
-        x = 4 * j;
-        for (i = 0; i < 5; i++) {
-            if (x % 4 != 0) break;
+int x = 0;
 
-            x = (x / 4) * 5 + 1;
-        }
-        j++;
+void f();
+
+int main(void) {
+    int x, loop = 0;
+    loop:
+    for (x = 1; x < 5; x++) {
+        int x = 2;
+        printf("%d", x);
     }
-    printf("%d\n", x);
-    return 0;
+    printf("%d", x);
+    f();
+    loop++;
+    if (loop < 1) goto loop;
+}
+
+void f() {
+    printf("%d", x++);
 }
