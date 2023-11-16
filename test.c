@@ -4,23 +4,13 @@
 
 #include <stdio.h>
 
-int x = 0;
-
-void f();
-
-int main(void) {
-    int x, loop = 0;
-    loop:
-    for (x = 1; x < 5; x++) {
-        int x = 2;
-        printf("%d", x);
-    }
-    printf("%d", x);
-    f();
-    loop++;
-    if (loop < 1) goto loop;
+int mystery(int a, int b) {
+    if (b == 1) return a;
+    else return a + mystery(a, b - 1);
 }
 
-void f() {
-    printf("%d", x++);
+int main(void) {
+    int x = 5, y = 5;
+    printf("%d\n", mystery(x, y));
+    return 0;
 }

@@ -1,0 +1,5 @@
+add_executable(11_1 11_1.c)
+add_executable(11_2 11_2.c)
+add_executable(11_3 11_3.c)
+add_executable(11_4 11_4.c)
+add_executable(11_4_1 11_4_1.c)
