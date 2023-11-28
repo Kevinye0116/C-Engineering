@@ -1,0 +1,1 @@
+add_executable(12_1 12_1.c)
