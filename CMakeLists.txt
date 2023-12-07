@@ -14,6 +14,7 @@ add_subdirectory(week10)
 add_subdirectory(week11)
 add_subdirectory(week12)
 add_subdirectory(week13)
+add_subdirectory(week14)
 
 add_executable(escape escape.c)
 add_executable(test test.c)

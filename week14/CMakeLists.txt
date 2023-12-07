@@ -1,0 +1,5 @@
+add_executable(14_1 14_1.c)
+add_executable(14_2 14_2.c)
+add_executable(14_3 14_3.c)
+add_executable(14_4 14_4.c)
+add_executable(14_5 14_5.c)
