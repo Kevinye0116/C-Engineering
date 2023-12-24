@@ -71,9 +71,9 @@ void display(PS *p, int n) {
 }
 
 int main() {
-  PS a[] = {{101, "tom", "m"}, {103, "mary", "f"}, {104, "mark", "m"},
-      {105, "julia", "f"}, {106, "sara", "f"}};
-  PS b[] = {{102, "mark", "m"}, {104, "mark", "m"}};
+  PS a[] = {{ 101, "tom", "m" }, { 103, "mary", "f" }, { 104, "mark", "m" },
+      { 105, "julia", "f" }, { 106, "sara", "f" }};
+  PS b[] = {{ 102, "mark", "m" }, { 104, "mark", "m" }};
 
   int size_a = sizeof(a) / sizeof(a[0]);
   int size_b = sizeof(b) / sizeof(b[0]);
